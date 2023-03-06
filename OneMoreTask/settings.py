@@ -79,8 +79,13 @@ WSGI_APPLICATION = 'OneMoreTask.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'omapp_db',
+        'USER': 'user_db',
+        'PASSWORD': '11235',
+        'HOST':  'db',
+        'PORT': '5432',
+
     }
 }
 

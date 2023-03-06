@@ -6,11 +6,8 @@
 
 ## Запуск и проверка:
 
-#### Установить пакеты:
-``` $ pip install -r requirements.txt ```
 
-#### Запустить тесты:
-``` $ python manage.py test ```
 
-#### Запустить сервер:
-``` $ python manage.py runserver ```
+#### Запустить Контейнер:
+``` $ docker-compose up ```
+
